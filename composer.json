@@ -1,0 +1,27 @@
+{
+    "name": "zems/zems_builder",
+    "description": "Laravel Zems Builder package by zems team",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zems\\ZemsBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zems",
+            "email": "support@zems.uk",
+            "homepage": "https://zems.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "zems/lr_admin": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Zems\\ZemsBuilder\\ZemsBuilderProvider"]
+        }
+    }
+}
